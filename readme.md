@@ -28,31 +28,6 @@ graph LR
     E --> F[タスク管理・進捗確認]
 ```
 
-## 🚀 使い方
-
-### 1. 議事録からタスクを抽出
-
-```bash
-# 議事録ファイルを指定して実行
-python notebooks/extract_tasks.py meeting_notes.txt
-```
-
-### 2. 抽出したタスクをIssueとして登録
-
-```bash
-# 抽出したタスクをIssueとして登録
-./scripts/create_issues.sh tasks.json
-```
-
-### 3. Issueの確認と管理
-
-```bash
-# 現在のIssue一覧を確認
-./scripts/list_issues.sh
-
-# Issueのステータス更新
-./scripts/update_issue.sh issue_number status
-```
 
 ## 📊 タスク管理の例
 
